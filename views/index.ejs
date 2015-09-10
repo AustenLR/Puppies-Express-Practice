@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Age</th>
+  </thead>
+  <tbody>
+  <% puppies.forEach(function(el){ %>
+    <tr>
+      <td><%=el.name%></td>
+      <td><%=el.age%></td>
+    </tr> 
+  <% }) %> 
+  </tbody>
+</table>
+
+  
+</body>
+</html>
