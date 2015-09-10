@@ -5,18 +5,16 @@
   <title>Document</title>
 </head>
 <body>
-<table>
+  <table>
   <thead>
     <th>Name</th>
     <th>Age</th>
   </thead>
   <tbody>
-  <% puppies.forEach(function(el){ %>
     <tr>
-      <td><%=el.name%></td>
-      <td><%=el.age%></td>
+      <td><%= name %></td>
+      <td><%= age %></td>
     </tr> 
-  <% }) %> 
   </tbody>
 </table>
 </body>
