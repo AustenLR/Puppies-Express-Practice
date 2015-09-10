@@ -1,0 +1,27 @@
+.jumbotron{
+  margin-top: 90px;
+}
+
+table{
+  font-size: 24px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;  
+}
+
+td{
+ text-align: center; 
+ width: 20%;
+}
+
+th{
+ width: 20%;
+  text-align: center; 
+  font-size: 34px;
+}
+
+body{
+  background-color: black;
+}
